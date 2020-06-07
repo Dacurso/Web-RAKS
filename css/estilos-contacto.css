@@ -1,0 +1,126 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	position: absolute;
+}
+
+main{
+	width: 100%;
+	height: auto;
+}
+
+form h3{
+	color: #73126C;
+	font-style: italic;
+	font-size: 24px;
+	text-shadow: 0px 4px 4px #b77cb3;
+	
+}
+
+main h2{
+	padding-top: 1%;
+	width: 100%;
+	position: relative;
+	top: 8px;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Roboto Condensed',sans-serif;
+	color: #60185A;
+	box-shadow: 0px 15px 20px 30px #EFDAED;
+	transition: 0.3s;
+	border-top: groove 3px #dbafd7;
+	opacity: 75%;
+	border-radius: 25px 25px 0px 0px;
+}
+
+h2:hover{
+	font-size: 26px;
+	opacity: 100%;
+	transition: 0.5s;
+	box-shadow: 0px 15px 30px 40px #EFDAED;
+}
+
+#maps{ 
+	height: 15em;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+form{
+	top: -5px;
+	position: relative;
+	padding-top: 1em;
+	text-align: center;
+	width: 100%;
+	height: 55em;
+	background-image: linear-gradient(#ffced1, #f5dbcb);
+}
+
+#enviar{
+	border:solid 3px #de639a;
+	width: 6em;
+	height: 3em;
+	color: #de639a;
+	font-style: italic;
+	border-radius: 1em;
+	transition: 0.5s;
+}
+
+#enviar:hover{
+	background-color: #de639a;
+	border:solid 3px #ffffff;
+	color: #ffffff;
+	opacity: 80%;
+	font-style: italic;
+	transition: 0.5s;
+}
+
+form input{
+	height: 1.5em;
+	font-size: 15px;
+
+}
+
+form input, form textarea{
+	width: 18em;
+	border-radius: 5px;
+	border:solid 1.5px #de639a;
+	font-family: 'Roboto Condensed', sans-serif;
+	max-height: 12em;
+}
+
+form input:focus, form textarea:focus{
+	box-shadow: 0px 1px 6px 0px #73126C; 
+	transition: 0.3s;
+}
+
+main h4{
+	position: relative;
+	left: 2em;
+	top: -1em;
+	color: #de639a;
+	opacity: 35%;
+	-webkit-transform: rotate(-18deg); 
+	-moz-transform: rotate(-18deg);
+    -o-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+   	text-decoration: underline;
+}
+
+#datos{
+	text-align: center;
+	width: 14em;
+	margin: auto;
+	font-style: italic;
+}
+
+.etiquetas{
+	font-style: italic;
+	font-size: 18px;
+}
+
